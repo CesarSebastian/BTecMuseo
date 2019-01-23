@@ -1,0 +1,12 @@
+
+.demo h1                        {   margin-bottom: 25px;}
+.demo .contenedor .contenido    {   margin-right: 1px;}
+a.boton_demo                    {   margin-top: 20px}
+div.jMyCarousel                 {   margin-top: 5px; height: 143px !important; width: 1000px !important;}
+div.jMyCarousel .prev           {   background: url('../imagenes/left.png') center center no-repeat; width:47px; height:61px; border:0px; }
+div.jMyCarousel .next           {   background: url('../imagenes/right.png') center center no-repeat; width:40px; height:61px; border:0px; }
+div.jMyCarousel ul li           {   margin:0px; line-height:0px; padding:0px; }
+div.jMyCarousel ul li a         {   display:block; }
+div.jMyCarousel ul li img       {   display:block; border:0px; margin: 0px 5px 0px;}
+#contenido_galeria              {   position: relative; height: 350px; background: gray;}
+#contenido_galeria img          {   float: left; width: 700px;}

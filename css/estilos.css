@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/05/2016, 06:36:05 PM
+    Author     : Cesare
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header,nav,aside,footer,section{
+	display: block;
+}
+body{
+    background: url('../imagenes/Universo.jpg') repeat-x; 
+	background-attachment: fixed;
+	padding: 10px;
+	text-align: center;
+}
+#cuerpo{
+	width: 1250px;
+	margin: 15px auto;			
+}
+#cabezera{
+    border: black solid 2px;    	
+	border-bottom: 1px solid  #171717;
+	background:#34495E;
+	border-radius: 15px 15px 0px 0px;	
+}
+nav{	
+    background-color: #34495E;
+	padding: 15px;
+	border-top: 1px solid  #171717;
+}
+#slider{	
+	width: 900px;
+	height: 400px;
+	margin-left: 50px;
+	margin-bottom: 35px;
+}
+.art1{	
+    border: black solid 1px;
+    text-align: center;
+	width: 900px;	
+	margin-left: 50px;
+	margin-bottom: 25px;
+	padding: 20px;
+}
+.zoom{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+	width: 220px;
+	height: 150px;	
+}
+.zoom:hover{
+    transform : scale(2);
+    -moz-transform : scale(2);     
+    -webkit-transform : scale(2);  
+    -o-transform : scale(2);        
+}
+#columna{
+    float: right;
+    border-right: black solid 2px;
+	border-bottom: black solid 2px;
+    background:#34495E;
+	width:14.56%;	
+	padding-top: 75px;
+	padding-bottom: 75px;	
+}
+#seccion{
+	width: 80%;
+    background-color: #CBCBCB;
+    float: left;      
+    border: black solid 2px;	
+	padding: 30px;
+}
+#seccion-sala{
+	width: 94.9%;
+    background-color: #CBCBCB;
+    float: left;      
+    border: black solid 2px;	
+	padding: 30px;
+}
+#pie{
+	border-radius: 0px 0px 15px 15px;
+    clear: both;
+    float: bottom;
+    border: black solid 2px;
+    background-color: #34495E;		
+	padding: 30px;	
+	text-align: right;
+	color: #7d91a3;
+}
+.contenidos{
+	text-align: justify;
+	padding-bottom: 20px;
+	font-size: 14pt;
+}
+.titulos{
+	padding: 15px;
+	font-size: 30pt;
+	color:#084B8A;
+	font-family:Arial;	
+	margin-bottom: 5px;
+	text-align: justify;
+}
+.contenidoSala{
+	color: #E1D9D9;
+	text-align: justify;
+	font-size: 14pt;
+	margin-top: 25px;
+}
+.tituloSala{
+	margin-top: 25px;
+	color: #E1D9D9;
+	text-align: center;
+	font-size: 17pt;
+	text-shadow: 5px 5px 10px black;
+}
+
+/* Inicio Menú Principal*/
+.menu li{
+	display: inline-block;
+	font-size: 16pt;			
+	height: 20px;
+	float: left;	
+}
+.menu li a {
+	font-weight:600;
+	text-decoration:none;	
+	color:#7d91a3; 	
+	padding: 15px;
+	-webkit-transition: all 2s ease-in-out 2s;
+	-moz-transition: all 0.2s ease-in-out 0s;	
+    transition: all 0.2s ease-in-out 0s;
+	border-right: 1px solid  #171717;
+}
+.menu li a:hover, .menu li:hover > a{	
+	background:#ff7713;
+	color: white;
+}
+.inputBusc {  
+  font-size: 12pt;
+  color: #0F1622;
+  background: #fff;
+  border: none;  
+  width: 250px;
+  height: 25px;
+}
+.botonBusc {
+  border: none;
+  width: 35px;
+  height: 25px;
+  outline:none;
+  position: absolute;
+}
+/*Fin de menú*/
+table{
+	margin: auto;
+}
+#imgDron{
+	margin: auto;
+	width: 700px;
+	height: 400px;
+	border-radius: 30px;
+}
